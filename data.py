@@ -11,16 +11,40 @@ print(soup.prettify())
 
 ##Getting job titles
 company_name = soup.find_all('span', class_ = "companyName")
+output_company_name = []
 for i in company_name:
     print(i.text)
+    data = i.text
+    company_name.append(data)
+
+######
+len(output_company_name)
+output_company_name[1]
+output_company_name[3]
+###recieving error - list index out of range
+
 
 job_title = soup.find_all('div', class_ = 'css-1m4cuuf e37uo190')
+output_job_title = []
 for i in job_title:
     print(i.text)
+    data = i.text
+    job_title.append(data)
 
 
 location = soup.find_all()
 for i in location:
     print(i.location)
 
+list1 = company_name 
+list2 = job_title
 
+
+# create dictionary
+dictionary = {'company': list1, 'position': list2}
+
+## convert to dataframe
+df = pd.DataFrame({'company':company_name,'position':job_title})
+
+##convert to csv 
+df.to_csv('/Users/laynejohnson/Desktop/HHA507:504 - classwork/web-scraping/data/indeed_scraped')
