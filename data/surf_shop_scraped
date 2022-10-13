@@ -1,1 +1,61 @@
 ,item,price
+0,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/oneill-edie-solid-dress.html"">
+                O’Neill Edie Solid Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$55.00</ins>"
+1,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/z-supply-lex-triblend-dress.html"">
+                Z Supply Lex Triblend Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$49.00</ins>"
+2,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/oneill-lori-dress.html"">
+                O'Neill Lori Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$55.00</ins>"
+3,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/oneill-morette-solid-dress.html"">
+                O'Neill Morette Solid Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$44.00</ins>"
+4,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/free-people-angele-mini-dress.html"">
+                Free People Angele Mini Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$78.00</ins>"
+5,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/free-people-annelise-slip-dress.html"">
+                Free People Annelise Slip Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$88.00</ins>"
+6,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/z-supply-melody-midi-dress.html"">
+                Z Supply Melody Midi Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$88.00</ins>"
+7,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/z-supply-runaway-zip-henley-dress.html"">
+                Z Supply Runaway Zip Henley Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$115.00</ins>"
+8,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/billabong-x-wrangler-peachy-keen-dress.html"">
+                Billabong x Wrangler Peachy Keen Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$109.95</ins>"
+9,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/shore-sicily-tie-dress.html"">
+                Shore Sicily Tie Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$178.00</ins>"
+10,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/splendid-hadley-dress.html"">
+                Splendid Hadley Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$168.00</ins>"
+11,"<h1 class=""text-base margin-bottom-xs"">
+<a class=""product-card__title"" href=""https://www.flyingpointsurf.com/lost-wander-all-summer-long-maxi-dress.html"">
+                Lost + Wander All Summer Long Maxi Dress
+              </a>
+</h1>","<ins class=""prod-card__price"">$138.00</ins>"

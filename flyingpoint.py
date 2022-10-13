@@ -17,8 +17,11 @@ item = soup.find_all('h1', class_ = "text-base margin-bottom-xs")
 output_item = []
 for i in item:
     print(i.text)
-    data = i.text
-    item.append(data)
+    ##data = i.text
+    if i.text == None:
+        print('skipping')
+    else:
+        output_item.append(i.text)
 
 len(output_item)
 output_item[0]
@@ -33,8 +36,10 @@ price = soup.find_all('ins', class_ = "prod-card__price")
 output_price = []
 for i in price:
     print(i.text)
-    data = i.text
-    price.append(data)
+    if i.text == None:
+        print('skipping')
+    else:
+        output_price.append(i.text)
 
 len(output_price)
 output_price[0]

@@ -14,22 +14,27 @@ company_name = soup.find_all('span', class_ = "companyName")
 output_company_name = []
 for i in company_name:
     print(i.text)
-data = i.text
-company_name.append(data)
+    ##data = i.text
+    if i.text == None:
+        print('skipping')
+    else:
+        output_company_name.append(i.text)
 
-######recieving error that 'str' objet has no attribute 'text'
+###### WAS recieving error that 'str' objet has no attribute 'text' -- added lines 18-21 to overcome error
 len(output_company_name) 
 output_company_name[1]
 output_company_name[3]
-##out of range 
+
 
 
 job_title = soup.find_all('div', class_ = 'css-1m4cuuf e37uo190')
 output_job_title = []
 for i in job_title:
     print(i.text)
-data = i.text
-job_title.append(data)
+    if i.text == None:
+        print('skipping')
+    else:
+        output_job_title.append(i.text)
 
 len(output_job_title) 
 output_job_title[1]
